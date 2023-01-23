@@ -12,6 +12,8 @@ pipeline {
                             zip -r test-purpose
                             
                             '''
+                        }
+                           
               	    }  
          	    } 
         }
