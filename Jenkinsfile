@@ -3,8 +3,8 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-              	    echo "cloning repository" 
-              	    echo "repo cloned successfully"  
+              	    git credentialsId: '937d0a4a-369e-4b50-bb05-b0ab27bccd37', url: 'https://github.com/Nagandhra/onlinebookstore.git' 
+              	   
               	    }  
          	    } 
         }
